@@ -13,9 +13,24 @@ namespace Lab06
             Console.WriteLine("Charrrgee!!!!");
         }
 
+        public override void Eat()
+        {
+            Console.WriteLine("I eat leaves");
+        }
+
         public override void Walk()
         {
             Console.WriteLine("Walk on HOOVES");
+        }
+
+        public override void Breathe() 
+        {
+        Console.WriteLine("I am breathing");
+        }
+
+        public override void Move()
+        {
+            Console.WriteLine("Moving backwards");
         }
     }
 }
