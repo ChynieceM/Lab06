@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Lab06
 {
-    internal class IWalk
+     interface IWalk
     {
+        public int Legs { get; set; }
+        public void Walks();
+
     }
 }

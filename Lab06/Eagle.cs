@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lab06
 {
-    public class Eagle : Bird
+    public class Eagle : Bird, IWalk
     {
 
         int wingspan = 24; 
@@ -21,6 +21,11 @@ namespace Lab06
         public override void Move()
         {
             Console.WriteLine("On the hunt for some dinner");
+        }
+
+        public void Walk()
+        {
+            Console.WriteLine("Cawwww Cawwww");
         }
     }
 }

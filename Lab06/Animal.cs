@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lab06
 {
-    abstract class Animal
+    public abstract class Animal
     {
         public virtual void Sleep() 
         {
