@@ -6,8 +6,17 @@ using System.Threading.Tasks;
 
 namespace Lab06
 {
-    internal class Bird
+    public abstract class Bird : Animal
     {
         int WingSpan;
+
+        public override string AnimalType => "Bird";
+
+        public void DisplayType()
+        {
+            Console.WriteLine($"This animal is a: {AnimalType}");
+        }
+
+        public abstract void Fly();
     }
 }

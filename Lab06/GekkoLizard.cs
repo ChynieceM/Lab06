@@ -21,5 +21,11 @@ namespace Lab06
         {
             Console.WriteLine("15 minutes can save you 15 percent or more on car insurance!!");
         }
+
+        public override void Move()
+        {
+            Console.WriteLine("Wiggles through the forrest");
+        }
+
     }
 }

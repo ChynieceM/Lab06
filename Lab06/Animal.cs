@@ -12,7 +12,12 @@ namespace Lab06
         {
             Console.WriteLine("Zzzzzzz");
         }
-            
+        public abstract string AnimalType { get; }
+
+        public void DisplayType()
+        {
+            Console.WriteLine($"This animal is a: {AnimalType}");
+        }
         public abstract void Breathe();
         public abstract void Move();
         public virtual void Eat() 

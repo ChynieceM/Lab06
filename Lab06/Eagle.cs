@@ -6,31 +6,21 @@ using System.Threading.Tasks;
 
 namespace Lab06
 {
-     class Monkey : Mammal
+    public class Eagle : Bird
     {
-        public void ClimbTree()
-        {
-            Console.WriteLine("Climb!");
-        }
 
-        public override void Walk() 
+        int wingspan = 24; 
+        public override void Fly()
         {
-        Console.WriteLine("Walk on paws");
-                
+            Console.WriteLine("Im flying!");
         }
-
         public override void Breathe()
         {
             Console.WriteLine("Im breathing");
-
         }
-
         public override void Move()
         {
-            Console.WriteLine("swinging through the trees");
-
+            Console.WriteLine("On the hunt for some dinner");
         }
-
-        
     }
 }

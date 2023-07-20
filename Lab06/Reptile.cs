@@ -11,5 +11,12 @@ namespace Lab06
         string ScaleColor;
         int TailSize;
         public abstract void Sound();
+    public override string AnimalType => "Reptile";
+
+    public void DisplayType()
+    {
+        Console.WriteLine($"This animal is a: {AnimalType}");
     }
+    }
+
 }
