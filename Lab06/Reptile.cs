@@ -8,9 +8,9 @@ namespace Lab06
 {
     abstract class Reptile : Animal
     {
-        string ScaleColor;
-        int TailSize;
-        public abstract void Sound();
+     string ScaleColor;
+     int TailSize;
+    public abstract void Sound();
     public override string AnimalType => "Reptile";
 
     public void DisplayType()

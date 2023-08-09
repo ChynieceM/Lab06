@@ -9,7 +9,10 @@ namespace Lab06
     public class Eagle : Bird, IWalk
     {
 
-        int wingspan = 24; 
+        int wingspan = 24;
+
+        public int Legs { get; set; }
+
         public override void Fly()
         {
             Console.WriteLine("Im flying!");
@@ -26,6 +29,11 @@ namespace Lab06
         public void Walk()
         {
             Console.WriteLine("Cawwww Cawwww");
+        }
+
+        public void Walks()
+        {
+            Console.WriteLine("Walking again");
         }
     }
 }
